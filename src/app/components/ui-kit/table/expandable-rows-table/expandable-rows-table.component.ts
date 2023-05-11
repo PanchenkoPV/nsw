@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { animate, state, style, transition, trigger } from '@angular/animations';
-import { CustomizerSettingsService } from '../../../customizer-settings/customizer-settings.service';
+
 
 @Component({
     selector: 'app-expandable-rows-table',
@@ -20,15 +20,6 @@ export class ExpandableRowsTableComponent {
     columnsToDisplay = ['name', 'weight', 'symbol', 'position'];
     columnsToDisplayWithExpand = [...this.columnsToDisplay, 'expand'];
     expandedElement: PeriodicElement | null;
-
-    constructor(
-        public themeService: CustomizerSettingsService
-    ) {}
-
-    toggleTheme() {
-        this.themeService.toggleTheme();
-    }
-
 }
 
 export interface PeriodicElement {

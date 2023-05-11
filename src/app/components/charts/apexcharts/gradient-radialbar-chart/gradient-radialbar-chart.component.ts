@@ -25,7 +25,7 @@ export type ChartOptions = {
 })
 export class GradientRadialbarChartComponent {
 
-    @ViewChild("chart") chart: ChartComponent;
+    @ViewChild("chart") chart: ChartComponent | undefined;
     public chartOptions: Partial<ChartOptions>;
 
     constructor() {

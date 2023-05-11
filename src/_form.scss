@@ -1,4 +1,4 @@
-.tagus-form-group {
+.nsw-form-group {
     .mat-mdc-form-field {
         display: block;
 
@@ -175,7 +175,7 @@
         }
     }
 }
-.tagus-search-box {
+.nsw-search-box {
     position: relative;
 
     .input-search {
@@ -241,7 +241,7 @@
         }
     }
 }
-.tagus-wizard {
+.nsw-wizard {
     .mat-horizontal-content-container {
         padding: 0;
     }
@@ -323,7 +323,7 @@
         }
     }
 }
-.tagus-form {
+.nsw-form {
     .mat-mdc-checkbox {
         .mdc-checkbox {
             margin: {
@@ -352,7 +352,7 @@
         }
     }
 }
-.tagus-form {
+.nsw-form {
     .login-with-socials {
         .mdc-button {
             .mdc-button__label {
@@ -364,7 +364,7 @@
 
 // Dark Mode
 .dark-theme {
-    .tagus-form-group {
+    .nsw-form-group {
         .mat-mdc-text-field-wrapper {
             border-color: #1f2226;
         }
@@ -398,11 +398,11 @@
             }
         }
     }
-    .tagus-search-box {
+    .nsw-search-box {
         .input-search {
             background-color: #1e2227;
             color: var(--whiteColor);
-            
+
             &::placeholder {
                 color: #828690;
             }
@@ -413,7 +413,7 @@
             }
         }
     }
-    .tagus-wizard {
+    .nsw-wizard {
         &.mat-stepper-horizontal, &.mat-stepper-vertical {
             background-color: #14171c;
         }
@@ -431,7 +431,7 @@
             }
         }
     }
-    .tagus-form {
+    .nsw-form {
         .mat-mdc-checkbox {
             .mdc-checkbox {
                 margin: {
@@ -464,7 +464,7 @@
 
 // RTL CSS
 .rtl-enabled {
-    .tagus-form-group {
+    .nsw-form-group {
         .mat-mdc-text-field-wrapper {
             padding: {
                 left: 15px;
@@ -534,11 +534,11 @@
             }
         }
     }
-    .tagus-search-box {
+    .nsw-search-box {
         button {
             right: auto;
             left: 22px;
-    
+
             &.bg-color {
                 right: auto;
                 left: 0;
@@ -549,7 +549,7 @@
             }
         }
     }
-    .tagus-wizard {
+    .nsw-wizard {
         .mat-step-text-label {
             padding: {
                 left: 15px;
@@ -584,7 +584,7 @@
             }
         }
     }
-    .tagus-form {
+    .nsw-form {
         .mat-mdc-checkbox {
             .mdc-checkbox {
                 margin: {

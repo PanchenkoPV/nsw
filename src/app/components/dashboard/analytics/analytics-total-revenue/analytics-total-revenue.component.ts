@@ -1,5 +1,4 @@
 import { Component, ViewChild } from "@angular/core";
-import { CustomizerSettingsService } from '../../../customizer-settings/customizer-settings.service';
 import {
     ChartComponent,
     ApexNonAxisChartSeries,
@@ -25,17 +24,7 @@ export class AnalyticsTotalRevenueComponent {
     @ViewChild("chart") chart: ChartComponent;
     public chartOptions: Partial<ChartOptions>;
 
-    toggleTheme() {
-        this.themeService.toggleTheme();
-    }
-
-    toggleRTLEnabledTheme() {
-        this.themeService.toggleRTLEnabledTheme();
-    }
-
-    constructor(
-        public themeService: CustomizerSettingsService
-    ) {
+    constructor() {
         this.chartOptions = {
             series: [65],
             chart: {

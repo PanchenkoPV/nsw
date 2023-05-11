@@ -165,7 +165,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
     {
         position: '#SK251',
         product: {
-            productName: 'Tagus Airpod x-Zon',
+            productName: 'nsw Airpod x-Zon',
             productImage: 'assets/img/recent-orders/product8.jpg',
         },
         customer: 'Lucas Oliver',
@@ -242,7 +242,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
         },
         customer: 'Sophia Charlotte',
         price: '$199.21',
-        vendor: 'Tagus',
+        vendor: 'nsw',
         date: '12-12-2022',
         status: {
             delivered: 'Delivered'

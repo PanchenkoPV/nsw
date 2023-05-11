@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { ToggleService } from '../header/toggle.service';
-import { CustomizerSettingsService } from '../../customizer-settings/customizer-settings.service';
+
+import { ToggleService } from '../../../services/toggle/toggle.service';
+
 
 @Component({
     selector: 'app-sidebar',
@@ -15,7 +16,6 @@ export class SidebarComponent {
 
     constructor(
         private toggleService: ToggleService,
-        public themeService: CustomizerSettingsService
     ) {
         this.toggleService.isToggled$.subscribe(isToggled => {
             this.isToggled = isToggled;
@@ -25,13 +25,4 @@ export class SidebarComponent {
     toggle() {
         this.toggleService.toggle();
     }
-
-    toggleSidebarTheme() {
-        this.themeService.toggleSidebarTheme();
-    }
-
-    toggleHideSidebarTheme() {
-        this.themeService.toggleHideSidebarTheme();
-    }
-
 }

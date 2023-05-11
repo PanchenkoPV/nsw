@@ -31,7 +31,7 @@ export type ChartOptions = {
 })
 export class StackedAreaChartComponent {
 
-    @ViewChild("chart") chart: ChartComponent;
+    @ViewChild("chart") chart: ChartComponent | undefined;
     public chartOptions: Partial<ChartOptions>;
 
     constructor() {

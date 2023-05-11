@@ -1,4 +1,4 @@
-<div class="mat-elevation-z8 tagus-mat-table">
+<div class="mat-elevation-z8 nsw-mat-table">
     <table mat-table [dataSource]="dataSource">
 
         <!-- Course Column -->
@@ -42,7 +42,7 @@
 
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
         <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-        
+
     </table>
     <mat-paginator
         [pageSizeOptions]="[5, 8]"

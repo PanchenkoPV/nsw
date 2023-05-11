@@ -35,7 +35,7 @@ export type ChartOptions = {
 })
 export class LineAreaChartComponent {
 
-    @ViewChild("chart") chart: ChartComponent;
+    @ViewChild("chart") chart: ChartComponent | undefined;
     public chartOptions: Partial<ChartOptions>;
 
     constructor() {

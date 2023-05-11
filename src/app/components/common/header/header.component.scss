@@ -73,7 +73,7 @@
                 height: 45px;
                 width: 100%;
                 border: 0;
-                
+
                 &::placeholder {
                     color: #a9a9c8;
                     transition: var(--transition);
@@ -242,7 +242,7 @@
         &.sticky {
             left: 25px;
             right: 285px;
-    
+
             &.active {
                 right: 85px;
             }
@@ -280,11 +280,11 @@
             }
             .search-box {
                 width: 300px;
-    
+
                 .input-search {
                     background-color: #1e2227;
                     color: var(--whiteColor);
-                    
+
                     &::placeholder {
                         color: #828690;
                     }
@@ -340,11 +340,11 @@
             }
             .search-box {
                 width: 300px;
-    
+
                 .input-search {
                     background-color: #1e2227;
                     color: var(--whiteColor);
-                    
+
                     &::placeholder {
                         color: #828690;
                     }
@@ -413,7 +413,7 @@
         }
         .header-right-side {
             padding-right: 0;
-    
+
             li {
                 margin: {
                     right: 0;
@@ -467,7 +467,7 @@
         &.sticky {
             right: 285px;
             left: 25px;
-    
+
             &.active {
                 right: 85px;
                 left: 25px;
@@ -477,7 +477,7 @@
             &.sticky {
                 right: 25px;
                 left: 285px;
-        
+
                 &.active {
                     left: 85px;
                     right: 25px;
@@ -487,7 +487,7 @@
         &.hide-sidebar {
             right: 25px;
             left: 85px;
-    
+
             .header-left-side {
                 .burger-menu {
                     margin-left: 0;
@@ -515,14 +515,14 @@
 
     .header-area {
         padding: 15px;
-        
+
         .header-left-side {
             justify-content: center;
             margin-bottom: 10px;
 
             .burger-menu {
                 margin-right: 10px;
-    
+
                 span {
                     width: 20px;
                     margin: 5px 0;
@@ -540,7 +540,7 @@
             }
             .search-box {
                 width: 175px;
-    
+
                 .input-search {
                     padding: 0 15px 2px 15px;
                     height: 38px;
@@ -553,7 +553,7 @@
         }
         .header-right-side {
             justify-content: center;
-    
+
             li {
                 margin: {
                     left: 4px;
@@ -563,7 +563,7 @@
                     width: 38px;
                     height: 38px;
                     font-size: 17px !important;
-    
+
                     i, img {
                         margin-top: 0;
                     }
@@ -584,7 +584,7 @@
                 .profile-btn {
                     font-size: 13px !important;
                     padding: 0 0 0 43px;
-    
+
                     img {
                         width: 35px;
                         height: 35px;
@@ -605,7 +605,7 @@
         &.sticky {
             right: 15px;
             left: 15px;
-    
+
             &.active {
                 left: 15px;
             }
@@ -614,7 +614,7 @@
             &.sticky {
                 right: 15px;
                 left: 15px;
-        
+
                 &.active {
                     right: 15px;
                 }
@@ -690,7 +690,7 @@
             &.sticky {
                 right: 15px;
                 left: 15px;
-        
+
                 &.active {
                     left: 15px;
                     right: 15px;
@@ -700,7 +700,7 @@
                 &.sticky {
                     right: 15px;
                     left: 15px;
-            
+
                     &.active {
                         right: 15px;
                         left: 15px;
@@ -710,7 +710,7 @@
             &.hide-sidebar {
                 left: 15px;
                 right: 15px;
-    
+
                 .header-left-side {
                     .burger-menu {
                         margin: {
@@ -753,7 +753,7 @@
                     width: 40px;
                     height: 40px;
                     font-size: 17px !important;
-    
+
                     &.notification-btn {
                         &::before {
                             top: 9px;
@@ -768,7 +768,7 @@
                 .profile-btn {
                     font-size: 13px !important;
                     padding: 0 18px 0 50px;
-    
+
                     img {
                         width: 40px;
                         height: 40px;
@@ -855,7 +855,7 @@
 
     .header-area {
         padding: 20px;
-    
+
         .header-left-side {
             .burger-menu {
                 margin-right: 15px;
@@ -865,7 +865,7 @@
                 height: 40px;
                 margin-right: 15px;
                 font-size: 16px !important;
-    
+
                 i, img {
                     margin-top: .5px;
                 }
@@ -875,7 +875,7 @@
             }
             .search-box {
                 width: 230px;
-    
+
                 .input-search {
                     padding: 0 15px 1px 15px;
                     height: 40px;
@@ -889,12 +889,12 @@
         .header-right-side {
             li {
                 margin-right: 15px;
-    
+
                 .btn {
                     width: 40px;
                     height: 40px;
                     font-size: 16px !important;
-        
+
                     i, img {
                         margin-top: .5px;
                     }
@@ -914,7 +914,7 @@
                 }
                 .profile-btn {
                     padding: 2px 20px 2px 50px;
-    
+
                     img {
                         width: 40px;
                         height: 40px;
@@ -929,7 +929,7 @@
         &.sticky {
             right: 25px;
             left: 25px;
-    
+
             &.active {
                 left: 25px;
             }
@@ -938,7 +938,7 @@
             &.sticky {
                 right: 25px;
                 left: 25px;
-        
+
                 &.active {
                     right: 25px;
                 }
@@ -999,7 +999,7 @@
             &.sticky {
                 right: 25px;
                 left: 25px;
-        
+
                 &.active {
                     left: 25px;
                     right: 25px;
@@ -1009,7 +1009,7 @@
                 &.sticky {
                     right: 25px;
                     left: 25px;
-            
+
                     &.active {
                         right: 25px;
                         left: 25px;
@@ -1019,7 +1019,7 @@
             &.hide-sidebar {
                 left: 25px;
                 right: 25px;
-    
+
                 .header-left-side {
                     .burger-menu {
                         margin: {
@@ -1062,7 +1062,7 @@
         &.sticky {
             right: 25px;
             left: 25px;
-    
+
             &.active {
                 left: 25px;
             }
@@ -1071,7 +1071,7 @@
             &.sticky {
                 right: 25px;
                 left: 25px;
-        
+
                 &.active {
                     right: 25px;
                 }
@@ -1122,7 +1122,7 @@
             &.sticky {
                 right: 25px;
                 left: 25px;
-        
+
                 &.active {
                     left: 25px;
                     right: 25px;
@@ -1132,7 +1132,7 @@
                 &.sticky {
                     right: 25px;
                     left: 25px;
-            
+
                     &.active {
                         right: 25px;
                         left: 25px;
@@ -1142,7 +1142,7 @@
             &.hide-sidebar {
                 left: 25px;
                 right: 25px;
-    
+
                 .header-left-side {
                     .burger-menu {
                         margin: {
@@ -1189,7 +1189,7 @@
                 .profile-btn {
                     font-size: 13px !important;
                     padding: 1px 15px 1px 50px;
-    
+
                     img {
                         width: 40px;
                         height: 40px;
@@ -1207,7 +1207,7 @@
         }
         &.sticky {
             left: 265px;
-    
+
             &.active {
                 left: 85px;
             }
@@ -1215,7 +1215,7 @@
         &.right-sidebar {
             &.sticky {
                 right: 265px;
-        
+
                 &.active {
                     right: 85px;
                 }
@@ -1267,7 +1267,7 @@
             &.sticky {
                 right: 265px;
                 left: 25px;
-        
+
                 &.active {
                     left: 25px;
                     right: 85px;
@@ -1277,7 +1277,7 @@
                 &.sticky {
                     right: 25px;
                     left: 265px;
-            
+
                     &.active {
                         right: 25px;
                         left: 85px;
@@ -1299,7 +1299,7 @@
     .header-area {
         &.sticky {
             left: 325px;
-    
+
             &.active {
                 left: 85px;
             }
@@ -1307,7 +1307,7 @@
         &.right-sidebar {
             &.sticky {
                 right: 325px;
-        
+
                 &.active {
                     right: 85px;
                 }
@@ -1335,7 +1335,7 @@
                 &.sticky {
                     left: 325px;
                     right: 25px;
-            
+
                     &.active {
                         left: 85px;
                         right: 25px;

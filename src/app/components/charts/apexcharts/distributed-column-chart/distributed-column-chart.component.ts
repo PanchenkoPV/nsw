@@ -40,7 +40,7 @@ export type ChartOptions = {
 })
 export class DistributedColumnChartComponent {
 
-    @ViewChild("chart") chart: ChartComponent;
+    @ViewChild("chart") chart: ChartComponent | undefined;
     public chartOptions: Partial<ChartOptions>;
 
     constructor() {

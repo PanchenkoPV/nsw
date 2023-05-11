@@ -29,7 +29,7 @@
         size: var(--fontSize) !important;
         weight: 500 !important;
     };
-    &.tagus {
+    &.nsw {
         --mat-mdc-button-persistent-ripple-color: var(--heraBlueColor);
 
         &.mat-unthemed {
@@ -56,14 +56,14 @@
     }
 }
 .mat-mdc-outlined-button {
-    &.tagus {
+    &.nsw {
         &.mat-unthemed {
             --mdc-outlined-button-label-text-color: var(--heraBlueColor);
         }
     }
 }
 .mat-mdc-raised-button {
-    &.tagus {
+    &.nsw {
         --mdc-protected-button-container-color: var(--heraBlueColor);
 
         &.mat-unthemed {
@@ -79,7 +79,7 @@
     }
 }
 .mat-mdc-unelevated-button {
-    &.tagus {
+    &.nsw {
         &.mat-unthemed {
             --mdc-filled-button-container-color: var(--heraBlueColor);
             --mdc-filled-button-label-text-color: var(--whiteColor);
@@ -93,12 +93,12 @@
     }
 }
 .mat-mdc-icon-button {
-    &.tagus {
+    &.nsw {
         --mdc-icon-button-icon-color: var(--heraBlueColor);
     }
 }
 .mat-mdc-fab, .mat-mdc-mini-fab {
-    &.tagus {
+    &.nsw {
         --mdc-fab-container-color: var(--heraBlueColor);
         --mdc-fab-icon-color: var(--whiteColor);
         --mat-mdc-fab-color: var(--whiteColor);
@@ -204,7 +204,7 @@ a {
     background-color: var(--alert-bg);
     border: var(--alert-border);
     border-radius: var(--alert-border-radius);
-    --tagus-text: var(--heraBlueColor);
+    --nsw-text: var(--heraBlueColor);
     --primary-text: #0a58ca;
     --secondary-text: #6c757d;
     --success-text: #146c43;
@@ -213,7 +213,7 @@ a {
     --danger-text: #b02a37;
     --light-text: #6c757d;
     --dark-text: #495057;
-    --tagus-bg-subtle: rgba(117, 127, 239, 0.1);
+    --nsw-bg-subtle: rgba(117, 127, 239, 0.1);
     --primary-bg-subtle: #cfe2ff;
     --secondary-bg-subtle: #f8f9fa;
     --success-bg-subtle: #d1e7dd;
@@ -222,7 +222,7 @@ a {
     --danger-bg-subtle: #f8d7da;
     --light-bg-subtle: #fcfcfd;
     --dark-bg-subtle: #ced4da;
-    --tagus-border-subtle: rgba(117, 127, 239, 0.2);
+    --nsw-border-subtle: rgba(117, 127, 239, 0.2);
     --primary-border-subtle: #9ec5fe;
     --secondary-border-subtle: #e9ecef;
     --success-border-subtle: #a3cfbb;
@@ -231,15 +231,6 @@ a {
     --danger-border-subtle: #f1aeb5;
     --light-border-subtle: #e9ecef;
     --dark-border-subtle: #adb5bd;
-    --tagus-text: var(--heraBlueColor);
-    --primary-text: #0a58ca;
-    --secondary-text: #6c757d;
-    --success-text: #146c43;
-    --info-text: #087990;
-    --warning-text: #997404;
-    --danger-text: #b02a37;
-    --light-text: #6c757d;
-    --dark-text: #495057;
     --border-width: 1px;
     --border-style: solid;
     --border-color: #dee2e6;
@@ -259,23 +250,23 @@ a {
         cursor: pointer;
     }
 }
-.alert-tagus {
-    --alert-color: var(--tagus-text);
-    --alert-bg: var(--tagus-bg-subtle);
-    --alert-border-color: var(--tagus-border-subtle);
-    --alert-link-color: var(--tagus-text);
+.alert-nsw {
+    --alert-color: var(--nsw-text);
+    --alert-bg: var(--nsw-bg-subtle);
+    --alert-border-color: var(--nsw-border-subtle);
+    --alert-link-color: var(--nsw-text);
 }
-.alert-bg-tagus {
+.alert-bg-nsw {
     --alert-color: var(--whiteColor);
-    --alert-bg: var(--tagus-text);
-    --alert-border-color: var(--tagus-text);
+    --alert-bg: var(--nsw-text);
+    --alert-border-color: var(--nsw-text);
     --alert-link-color: var(--whiteColor);
 }
-.alert-outline-tagus {
-    --alert-color: var(--tagus-text);
+.alert-outline-nsw {
+    --alert-color: var(--nsw-text);
     --alert-bg: transparent;
-    --alert-border-color: var(--tagus-text);
-    --alert-link-color: var(--tagus-text);
+    --alert-border-color: var(--nsw-text);
+    --alert-link-color: var(--nsw-text);
 }
 .alert-primary {
     --alert-color: var(--primary-text);
@@ -491,7 +482,7 @@ a {
     vertical-align: baseline;
     border-radius: var(--badge-border-radius);
 }
-.text-bg-tagus {
+.text-bg-nsw {
     color: #fff!important;
     background-color: var(--heraBlueColor) !important;
 }
@@ -527,7 +518,7 @@ a {
     color: #fff!important;
     background-color: RGBA(33,37,41,var(--bg-opacity,1))!important;
 }
-.text-outline-tagus {
+.text-outline-nsw {
     color: var(--heraBlueColor) !important;
     border: 1px solid var(--heraBlueColor) !important;
 }
@@ -563,7 +554,7 @@ a {
     color: RGBA(33,37,41,var(--bg-opacity,1))!important;
     border: 1px solid RGBA(33,37,41,var(--bg-opacity,1))!important;
 }
-.text-soft-tagus {
+.text-soft-nsw {
     color: var(--heraBlueColor) !important;
     background-color: rgba(117, 127, 239, 0.1) !important;
 }
@@ -766,7 +757,7 @@ a {
 .mat-mdc-standard-chip {
     &.mat-primary {
         &.mat-mdc-chip-selected, &.mat-mdc-chip-highlighted {
-            &.tagus {
+            &.nsw {
                 --mdc-chip-elevated-container-color: var(--heraBlueColor);
                 --mdc-chip-elevated-disabled-container-color: var(--heraBlueColor);
             }
@@ -924,8 +915,6 @@ a {
     --breadcrumb-padding-x: 0;
     --breadcrumb-padding-y: 0;
     --breadcrumb-margin-bottom: 1rem;
-    --breadcrumb-bg: ;
-    --breadcrumb-border-radius: ;
     --breadcrumb-divider-color: var(--secondary-color);
     --breadcrumb-item-padding-x: 0.5rem;
     --breadcrumb-item-active-color: var(--secondary-color);
@@ -984,7 +973,7 @@ blockquote {
 }
 
 // Timeline
-.tagus-timeline {
+.nsw-timeline {
     li {
         margin-bottom: 20px;
         padding: {
@@ -1075,7 +1064,7 @@ blockquote {
             .inner {
                 float: right;
                 text-align: left;
-                
+
                 .d-flex {
                     justify-content: unset;
                 }
@@ -1085,7 +1074,7 @@ blockquote {
 }
 
 // FAQ
-.tagus-basic-accordion {
+.nsw-basic-accordion {
     .accordion-item {
         margin-bottom: 25px;
         display: block;
@@ -1145,7 +1134,7 @@ blockquote {
         }
     }
 }
-.tagus-advance-accordion {
+.nsw-advance-accordion {
     .accordion-item {
         background-color: #F5F5F9;
         margin-bottom: 15px;
@@ -1195,7 +1184,7 @@ blockquote {
         }
     }
 }
-.tagus-basic-expansion {
+.nsw-basic-expansion {
     &.mat-accordion {
         .mat-expansion-panel {
             background-color: transparent;
@@ -1276,7 +1265,7 @@ blockquote {
         }
     }
 }
-.tagus-advance-expansion {
+.nsw-advance-expansion {
     &.mat-accordion {
         .mat-expansion-panel {
             background-color: #F5F5F9;
@@ -1449,7 +1438,7 @@ blockquote {
             border-bottom: none;
             padding: 15px 20px;
             position: relative;
-            
+
             &:last-child {
                 &::after {
                     display: none;
@@ -1493,7 +1482,7 @@ blockquote {
 
     // Mat Button
     .mdc-button {
-        &.tagus {
+        &.nsw {
             --mat-mdc-button-persistent-ripple-color: var(--heraBlueColor);
 
             &.mat-unthemed {
@@ -1517,7 +1506,7 @@ blockquote {
         &.mat-unthemed {
             --mdc-outlined-button-label-text-color: var(--whiteColor);
         }
-        &.tagus {
+        &.nsw {
             &.mat-unthemed {
                 --mdc-outlined-button-label-text-color: var(--heraBlueColor);
             }
@@ -1534,7 +1523,7 @@ blockquote {
             --mdc-protected-button-container-color: #1c1c1c;
             --mdc-protected-button-label-text-color: var(--whiteColor);
         }
-        &.tagus {
+        &.nsw {
             --mdc-protected-button-container-color: var(--heraBlueColor);
 
             &.mat-unthemed {
@@ -1563,7 +1552,7 @@ blockquote {
             --mdc-filled-button-container-color: #1c1c1c;
             --mdc-filled-button-label-text-color: var(--whiteColor);
         }
-        &.tagus {
+        &.nsw {
             &.mat-unthemed {
                 --mdc-filled-button-container-color: var(--heraBlueColor);
                 --mdc-filled-button-label-text-color: var(--whiteColor);
@@ -1583,7 +1572,7 @@ blockquote {
         }
     }
     .mat-mdc-icon-button {
-        &.tagus {
+        &.nsw {
             --mdc-icon-button-icon-color: var(--heraBlueColor);
         }
         &[disabled][disabled] {
@@ -1602,7 +1591,7 @@ blockquote {
         }
     }
     .mat-mdc-fab, .mat-mdc-mini-fab {
-        &.tagus {
+        &.nsw {
             --mdc-fab-container-color: var(--heraBlueColor);
             --mdc-fab-icon-color: var(--whiteColor);
             --mat-mdc-fab-color: var(--whiteColor);
@@ -1912,7 +1901,7 @@ blockquote {
     }
 
     // Timeline
-    .tagus-timeline {
+    .nsw-timeline {
         li {
             &::after {
                 background: #2e2e2e;
@@ -1929,18 +1918,18 @@ blockquote {
     }
 
     // FAQ
-    .tagus-basic-accordion {
+    .nsw-basic-accordion {
         .accordion-item {
             .accordion-item-header {
                 color: var(--whiteColor);
-                
+
                 .accordion-item-icon {
                     background: #1e2227;
                 }
             }
         }
     }
-    .tagus-advance-accordion {
+    .nsw-advance-accordion {
         .accordion-item {
             background-color: #1e2227;
 
@@ -1949,7 +1938,7 @@ blockquote {
             }
         }
     }
-    .tagus-basic-expansion {
+    .nsw-basic-expansion {
         &.mat-accordion {
             .mat-expansion-panel {
                 color: var(--whiteColor);
@@ -1964,7 +1953,7 @@ blockquote {
             }
         }
     }
-    .tagus-advance-expansion {
+    .nsw-advance-expansion {
         &.mat-accordion {
             .mat-expansion-panel {
                 background-color: #1e2227;
@@ -1993,7 +1982,7 @@ blockquote {
             }
         }
     }
-    
+
     // Mat Radio
     .mat-mdc-radio-button {
         .mdc-form-field {
@@ -2080,7 +2069,7 @@ blockquote {
             }
         }
     }
-    
+
 }
 
 // RTL CSS
@@ -2244,7 +2233,7 @@ blockquote {
         }
         &.mdc-list-item {
             padding: {
-                right: auto;
+                right: initial;
                 left: 0;
             };
         }
@@ -2253,7 +2242,7 @@ blockquote {
         &.mdc-list-item {
             padding: {
                 right: 0;
-                left: auto;
+                left: initial;
             };
         }
         .mdc-list-item__start {
@@ -2272,7 +2261,7 @@ blockquote {
         }
         &.mdc-list-item {
             padding: {
-                right: auto;
+                right: initial;
                 left: 0;
             };
         }
@@ -2318,7 +2307,7 @@ blockquote {
     }
 
     // Timeline
-    .tagus-timeline {
+    .nsw-timeline {
         li {
             padding: {
                 right: 50px;
@@ -2361,7 +2350,7 @@ blockquote {
     }
 
     // FAQ
-    .tagus-basic-accordion {
+    .nsw-basic-accordion {
         .accordion-item {
             .accordion-item-header {
                 padding: {
@@ -2381,7 +2370,7 @@ blockquote {
             }
         }
     }
-    .tagus-advance-accordion {
+    .nsw-advance-accordion {
         .accordion-item {
             .accordion-item-header {
                 .accordion-item-icon {
@@ -2391,7 +2380,7 @@ blockquote {
             }
         }
     }
-    .tagus-basic-expansion {
+    .nsw-basic-expansion {
         &.mat-accordion {
             .mat-expansion-panel-header-title, .mat-expansion-panel-header-description {
                 margin-right: 0;
@@ -2413,7 +2402,7 @@ blockquote {
             }
         }
     }
-    .tagus-advance-expansion {
+    .nsw-advance-expansion {
         &.mat-accordion {
             .mat-expansion-indicator {
                 &::before {
@@ -2435,7 +2424,7 @@ blockquote {
     }
 
     // Timeline
-    .tagus-timeline {
+    .nsw-timeline {
         li {
             padding-left: 40px;
         }
@@ -2450,7 +2439,7 @@ blockquote {
                 float: unset;
                 text-align: left;
                 padding-left: 55px;
-    
+
                 .date {
                     line-height: 38px;
                     height: 40px;
@@ -2472,10 +2461,10 @@ blockquote {
     }
 
     // FAQ
-    .tagus-basic-accordion {
+    .nsw-basic-accordion {
         .accordion-item {
             margin-bottom: 15px;
-    
+
             .accordion-item-header {
                 font-size: 14px;
                 padding: {
@@ -2497,10 +2486,10 @@ blockquote {
             }
         }
     }
-    .tagus-advance-accordion {
+    .nsw-advance-accordion {
         .accordion-item {
             padding: 15px 30px 15px 15px;
-    
+
             .accordion-item-header {
                 font-size: 14px;
 
@@ -2521,7 +2510,7 @@ blockquote {
             }
         }
     }
-    .tagus-basic-expansion {
+    .nsw-basic-expansion {
         &.mat-accordion {
             .mat-expansion-panel {
                 margin-bottom: 17px;
@@ -2549,7 +2538,7 @@ blockquote {
             }
         }
     }
-    .tagus-advance-expansion {
+    .nsw-advance-expansion {
         &.mat-accordion {
             .mat-expansion-panel {
                 padding: 15px 30px 15px 15px;
@@ -2580,7 +2569,7 @@ blockquote {
     .rtl-enabled {
 
         // Timeline
-        .tagus-timeline {
+        .nsw-timeline {
             li {
                 padding: {
                     left: 0;
@@ -2613,7 +2602,7 @@ blockquote {
         }
 
         // FAQ
-        .tagus-basic-accordion {
+        .nsw-basic-accordion {
             .accordion-item {
                 .accordion-item-header {
                     padding: {
@@ -2629,7 +2618,7 @@ blockquote {
                 }
             }
         }
-        .tagus-advance-accordion {
+        .nsw-advance-accordion {
             .accordion-item {
                 padding: {
                     left: 30px;
@@ -2643,7 +2632,7 @@ blockquote {
                 }
             }
         }
-        .tagus-basic-expansion {
+        .nsw-basic-expansion {
             &.mat-accordion {
                 .mat-expansion-panel-header {
                     padding: {
@@ -2656,7 +2645,7 @@ blockquote {
                 }
             }
         }
-        .tagus-advance-expansion {
+        .nsw-advance-expansion {
             &.mat-accordion {
                 .mat-expansion-panel {
                     padding: {

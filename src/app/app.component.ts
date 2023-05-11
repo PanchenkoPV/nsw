@@ -1,10 +1,22 @@
 import { Component } from '@angular/core';
+import { ToggleService } from './services/toggle/toggle.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'nsw';
+  isToggled = false;
+
+  constructor(
+    public router: Router,
+    private toggleService: ToggleService,
+  ) {
+    this.toggleService.isToggled$.subscribe(isToggled => {
+      this.isToggled = isToggled;
+    });
+  }
 }

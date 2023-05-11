@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CustomizerSettingsService } from '../../../customizer-settings/customizer-settings.service';
+
 
 @Component({
     selector: 'app-sticky-columns-table',
@@ -20,15 +20,6 @@ export class StickyColumnsTableComponent {
         'star',
     ];
     dataSource = ELEMENT_DATA;
-
-    constructor(
-        public themeService: CustomizerSettingsService
-    ) {}
-
-    toggleTheme() {
-        this.themeService.toggleTheme();
-    }
-
 }
 
 export interface PeriodicElement {

@@ -23,14 +23,14 @@ export type ChartOptions = {
 })
 export class BasicRadarChartComponent {
 
-    @ViewChild("chart") chart: ChartComponent;
+    @ViewChild("chart") chart: ChartComponent | undefined;
     public chartOptions: Partial<ChartOptions>;
 
     constructor() {
         this.chartOptions = {
             series: [
                 {
-                    name: "Tagus",
+                    name: "nsw",
                     data: [80, 50, 30, 40, 100, 20]
                 }
             ],

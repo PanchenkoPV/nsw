@@ -1,5 +1,4 @@
 import { Component, ViewChild } from "@angular/core";
-import { CustomizerSettingsService } from '../../../customizer-settings/customizer-settings.service';
 import {
     ApexNonAxisChartSeries,
     ApexPlotOptions,
@@ -24,28 +23,10 @@ export type ChartOptions = {
 })
 export class WelcomeDashboardComponent {
 
-    toggleTheme() {
-        this.themeService.toggleTheme();
-    }
-
-    toggleCardBorderTheme() {
-        this.themeService.toggleCardBorderTheme();
-    }
-
-    toggleCardBorderRadiusTheme() {
-        this.themeService.toggleCardBorderRadiusTheme();
-    }
-
-    toggleRTLEnabledTheme() {
-        this.themeService.toggleRTLEnabledTheme();
-    }
-
     @ViewChild("chart") chart: ChartComponent;
     public chartOptions: Partial<ChartOptions>;
 
-    constructor(
-        public themeService: CustomizerSettingsService
-    ) {
+    constructor() {
         this.chartOptions = {
             series: [50],
             chart: {

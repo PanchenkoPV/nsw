@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CustomizerSettingsService } from '../../../customizer-settings/customizer-settings.service';
+
 
 export interface PeriodicElement {
     name: string;
@@ -29,13 +29,4 @@ export class StylingColumnsTableComponent {
 
     displayedColumns: string[] = ['demo-position', 'demo-name', 'demo-weight', 'demo-symbol'];
     dataSource = ELEMENT_DATA;
-
-    constructor(
-        public themeService: CustomizerSettingsService
-    ) {}
-
-    toggleTheme() {
-        this.themeService.toggleTheme();
-    }
-
 }

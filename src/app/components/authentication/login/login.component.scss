@@ -1,4 +1,4 @@
-.tagus-form {
+.nsw-form {
     max-width: 510px;
 
     .title {
@@ -75,7 +75,7 @@
     }
 }
 .component-dark-theme {
-    .tagus-form {
+    .nsw-form {
         .login-with-socials {
             .mdc-button {
                 &.gray {
@@ -86,7 +86,7 @@
         }
         .or {
             color: #828690;
-    
+
             span {
                 background: #0d1015;
             }
@@ -119,7 +119,7 @@
     }
 }
 .component-rtl-enabled {
-    .tagus-form {
+    .nsw-form {
         .login-with-socials {
             .mdc-button {
                 padding: {
@@ -142,7 +142,7 @@
 
 @media only screen and (max-width : 767px) {
 
-    .tagus-form {
+    .nsw-form {
         max-width: 100%;
         padding: {
             left: 15px;
@@ -150,14 +150,14 @@
         };
         .title {
             margin-bottom: 20px;
-    
+
             p {
                 font-size: 15px;
             }
         }
         .login-with-socials {
             margin-bottom: 20px;
-    
+
             .mdc-button {
                 margin-bottom: 15px;
             }
@@ -176,10 +176,10 @@
 
 @media only screen and (min-width : 768px) and (max-width : 991px) {
 
-    .tagus-form {
+    .nsw-form {
         .title {
             margin-bottom: 15px;
-    
+
             p {
                 font-size: 15px;
             }

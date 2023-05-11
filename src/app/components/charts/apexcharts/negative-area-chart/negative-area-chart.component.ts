@@ -36,7 +36,7 @@ export type ChartOptions = {
 })
 export class NegativeAreaChartComponent {
 
-    @ViewChild("chart") chart: ChartComponent;
+    @ViewChild("chart") chart: ChartComponent | undefined;
     public chartOptions: Partial<ChartOptions>;
 
     constructor() {

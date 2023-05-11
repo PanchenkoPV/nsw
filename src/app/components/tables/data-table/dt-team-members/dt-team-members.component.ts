@@ -37,7 +37,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
             userImage: 'assets/img/user/user8.jpg',
             userDesignation: '@lyoung4a',
         },
-        email: 'lyoung4a@tagus.com',
+        email: 'lyoung4a@nsw.com',
         role: {
             icon: 'assets/img/icon/editor.png',
             roleTitle: 'Editor'
@@ -52,7 +52,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
             userImage: 'assets/img/user/user9.jpg',
             userDesignation: '@jstevenson5c',
         },
-        email: 'jstevenson5c@tagus.com',
+        email: 'jstevenson5c@nsw.com',
         role: {
             icon: 'assets/img/icon/admin.png',
             roleTitle: 'Admin'
@@ -67,7 +67,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
             userImage: 'assets/img/user/user10.jpg',
             userDesignation: '@ffrank7e',
         },
-        email: 'ffrank7e@tagus.com',
+        email: 'ffrank7e@nsw.com',
         role: {
             icon: 'assets/img/icon/maintainer.png',
             roleTitle: 'Maintainer'
@@ -82,7 +82,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
             userImage: 'assets/img/user/user11.jpg',
             userDesignation: '@ppatterson2g',
         },
-        email: 'ppatterson2g@tagus.com',
+        email: 'ppatterson2g@nsw.com',
         role: {
             icon: 'assets/img/icon/author.png',
             roleTitle: 'Author'
@@ -97,7 +97,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
             userImage: 'assets/img/user/user1.jpg',
             userDesignation: '@andyjm32',
         },
-        email: 'andyjm32@tagus.com',
+        email: 'andyjm32@nsw.com',
         role: {
             icon: 'assets/img/icon/admin.png',
             roleTitle: 'Admin'
@@ -112,7 +112,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
             userImage: 'assets/img/user/user2.jpg',
             userDesignation: '@taylors32',
         },
-        email: 'taylors32@tagus.com',
+        email: 'taylors32@nsw.com',
         role: {
             icon: 'assets/img/icon/editor.png',
             roleTitle: 'Editor'
@@ -127,7 +127,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
             userImage: 'assets/img/user/user3.jpg',
             userDesignation: '@davidwabc2',
         },
-        email: 'davidwabc2@tagus.com',
+        email: 'davidwabc2@nsw.com',
         role: {
             icon: 'assets/img/icon/author.png',
             roleTitle: 'Author'
@@ -142,7 +142,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
             userImage: 'assets/img/user/user4.jpg',
             userDesignation: '@ssmith542',
         },
-        email: 'ssmith542@tagus.com',
+        email: 'ssmith542@nsw.com',
         role: {
             icon: 'assets/img/icon/maintainer.png',
             roleTitle: 'Maintainer'

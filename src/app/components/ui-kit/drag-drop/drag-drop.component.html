@@ -12,29 +12,29 @@
     </ol>
 </div>
 
-<mat-card class="mb-25 tagus-card">
+<mat-card class="mb-25 nsw-card">
     <mat-card-header class="border-bottom">
         <h5 class="mb-0">Basic Drag & Drop</h5>
     </mat-card-header>
-    <mat-card-content [class.component-dark-theme]="themeService.isDark()">
+    <mat-card-content>
         <div class="example-box" cdkDrag>
             Drag me around!
         </div>
     </mat-card-content>
 </mat-card>
 
-<mat-card class="mb-25 tagus-card">
+<mat-card class="mb-25 nsw-card">
     <mat-card-header class="border-bottom">
         <h5 class="mb-0">Reordering Lists Drag & Drop</h5>
     </mat-card-header>
-    <mat-card-content [class.component-dark-theme]="themeService.isDark()">
+    <mat-card-content>
         <div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
             <div class="example-list-box" *ngFor="let movie of movies" cdkDrag>{{movie}}</div>
         </div>
     </mat-card-content>
 </mat-card>
 
-<mat-card class="mb-25 tagus-card">
+<mat-card class="mb-25 nsw-card">
     <mat-card-header class="border-bottom">
         <h5 class="mb-0">Connected Sorting Drag & Drop</h5>
     </mat-card-header>

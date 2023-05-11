@@ -26,7 +26,7 @@ export type ChartOptions = {
 })
 export class BasicTreemapChartComponent {
 
-    @ViewChild("chart") chart: ChartComponent;
+    @ViewChild("chart") chart: ChartComponent | undefined;
     public chartOptions: Partial<ChartOptions>;
 
     constructor() {

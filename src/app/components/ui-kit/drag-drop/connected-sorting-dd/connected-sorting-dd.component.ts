@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
-import { CustomizerSettingsService } from '../../../customizer-settings/customizer-settings.service';
+
 
 @Component({
     selector: 'app-connected-sorting-dd',
@@ -8,15 +8,6 @@ import { CustomizerSettingsService } from '../../../customizer-settings/customiz
     styleUrls: ['./connected-sorting-dd.component.scss']
 })
 export class ConnectedSortingDdComponent {
-
-    constructor(
-        public themeService: CustomizerSettingsService
-    ) {}
-
-    toggleTheme() {
-        this.themeService.toggleTheme();
-    }
-
     todo = ['Get to work', 'Pick up groceries', 'Go home', 'Fall asleep'];
 
     done = ['Get up', 'Brush teeth', 'Take a shower', 'Check e-mail', 'Walk dog'];
@@ -33,5 +24,4 @@ export class ConnectedSortingDdComponent {
             );
         }
     }
-
 }

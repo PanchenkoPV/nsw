@@ -1,5 +1,4 @@
 import { Component, ViewChild } from "@angular/core";
-import { CustomizerSettingsService } from '../../../customizer-settings/customizer-settings.service';
 import {
     ChartComponent,
     ApexNonAxisChartSeries,
@@ -26,7 +25,6 @@ export class NewVsReturingComponent {
     public chartOptions: Partial<ChartOptions>;
 
     constructor(
-        public themeService: CustomizerSettingsService
     ) {
         this.chartOptions = {
             series: [75],
@@ -55,13 +53,4 @@ export class NewVsReturingComponent {
             labels: ["New vs Returning"]
         };
     }
-
-    toggleTheme() {
-        this.themeService.toggleTheme();
-    }
-
-    toggleRTLEnabledTheme() {
-        this.themeService.toggleRTLEnabledTheme();
-    }
-
 }

@@ -31,7 +31,7 @@ export type ChartOptions = {
 })
 export class BrushLineChartComponent {
 
-    @ViewChild("chart") chart: ChartComponent;
+    @ViewChild("chart") chart: ChartComponent | undefined;
     public chartOptions1: Partial<ChartOptions>;
     public chartOptions2: Partial<ChartOptions>;
 

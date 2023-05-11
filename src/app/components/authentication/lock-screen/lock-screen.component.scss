@@ -1,4 +1,4 @@
-.tagus-form {
+.nsw-form {
     max-width: 510px;
 
     .top {
@@ -30,7 +30,7 @@
     }
 }
 .component-dark-theme {
-    .tagus-form {
+    .nsw-form {
         .top {
             background-color: #1e2227;
         }
@@ -41,27 +41,27 @@
         }
     }
     &.card-borderd-theme {
-        .tagus-form {
+        .nsw-form {
             box-shadow: var(--borderWhiteBoxShadow);
         }
     }
 }
 .card-borderd-theme {
-    .tagus-form {
+    .nsw-form {
         box-shadow: var(--borderBoxShadow);
     }
 }
 .card-border-radius {
-    .tagus-form {
+    .nsw-form {
         border-radius: 0 !important;
-        
+
         .top {
             border-radius: 0 !important;
         }
     }
 }
 .component-rtl-enabled {
-    .tagus-form {
+    .nsw-form {
         .top {
             padding: {
                 right: 25px;
@@ -77,7 +77,7 @@
 
 @media only screen and (max-width : 767px) {
 
-    .tagus-form {
+    .nsw-form {
         max-width: 100%;
         padding: {
             left: 15px;
@@ -85,7 +85,7 @@
         };
         .top {
             padding: 20px;
-    
+
             h4 {
                 font-size: 15px;
                 margin-bottom: 8px;
@@ -102,7 +102,7 @@
         }
     }
     .component-rtl-enabled {
-        .tagus-form {
+        .nsw-form {
             .top {
                 padding: 20px;
             }
@@ -113,7 +113,7 @@
 
 @media only screen and (min-width : 768px) and (max-width : 991px) {
 
-    .tagus-form {
+    .nsw-form {
         .mdc-button {
             font-size: 16px !important;
         }

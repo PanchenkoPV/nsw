@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { CustomizerSettingsService } from '../../customizer-settings/customizer-settings.service';
 
 @Component({
     selector: 'app-file-uploader',
@@ -17,13 +16,4 @@ export class FileUploaderComponent {
     onRemove(event:any) {
         this.files.splice(this.files.indexOf(event), 1);
     }
-
-    constructor(
-        public themeService: CustomizerSettingsService
-    ) {}
-
-    toggleTheme() {
-        this.themeService.toggleTheme();
-    }
-
 }

@@ -1,6 +1,5 @@
 import { Component, ViewChild } from "@angular/core";
 import { DatePipe } from '@angular/common';
-import { CustomizerSettingsService } from '../../../customizer-settings/customizer-settings.service';
 import {
     ApexAxisChartSeries,
     ApexChart,
@@ -42,17 +41,8 @@ export class AnalyticsStatusComponent {
     @ViewChild("chart") chart: ChartComponent;
     public chartOptions: Partial<ChartOptions>;
 
-    toggleTheme() {
-        this.themeService.toggleTheme();
-    }
-
-    toggleRTLEnabledTheme() {
-        this.themeService.toggleRTLEnabledTheme();
-    }
-
     constructor(
         private datePipe: DatePipe,
-        public themeService: CustomizerSettingsService
     ) {
         this.chartOptions = {
             series: [

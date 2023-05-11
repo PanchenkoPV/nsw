@@ -33,14 +33,14 @@ export type ChartOptions = {
 })
 export class SplineAreaChartComponent {
 
-    @ViewChild("chart") chart: ChartComponent;
+    @ViewChild("chart") chart: ChartComponent | undefined;
     public chartOptions: Partial<ChartOptions>;
 
     constructor() {
         this.chartOptions = {
             series: [
                 {
-                    name: "Tagus",
+                    name: "nsw",
                     data: [31, 40, 28, 51, 42, 109, 100]
                 },
                 {

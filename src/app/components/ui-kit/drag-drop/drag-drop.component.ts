@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
-import { CustomizerSettingsService } from '../../customizer-settings/customizer-settings.service';
+
 
 @Component({
     selector: 'app-drag-drop',
@@ -8,15 +8,6 @@ import { CustomizerSettingsService } from '../../customizer-settings/customizer-
     styleUrls: ['./drag-drop.component.scss']
 })
 export class DragDropComponent {
-
-    constructor(
-        public themeService: CustomizerSettingsService
-    ) {}
-
-    toggleTheme() {
-        this.themeService.toggleTheme();
-    }
-
     movies = [
         'Episode I - The Phantom Menace',
         'Episode II - Attack of the Clones',
@@ -32,5 +23,4 @@ export class DragDropComponent {
     drop(event: CdkDragDrop<string[]>) {
         moveItemInArray(this.movies, event.previousIndex, event.currentIndex);
     }
-
 }
